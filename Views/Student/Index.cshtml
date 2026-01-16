@@ -1,0 +1,37 @@
+﻿@model List<Student>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<form asp-action="Index" asp-controller="Student" method="get">
+    enter student name to search:
+    <input type="text" name="searchKey" />
+    <button type="submit">search</button>
+<table class="table table-bordered table-striped">
+
+    <tr>
+        <th>Student Id</th>
+        <th>Student First Name</th>
+        <th>Student LastName</th>
+        <th>Email </th>
+            <th> Course</th>
+    </tr>
+    @foreach (Student  s in @Model)
+    {
+        <tr>
+            <td>@s.StudentId</td>
+            <td>@s.FirstName</td>
+            <td>@s.LastName</td>
+            <td>@s.Email</td>
+            <td>
+                @foreach (var e in s.Enrollments)
+                {
+                    @e.Course.Title <br />
+                })
+                </td>
+                <td> <a asp-action="Delete" asp-controller="Student" asp-route-id="@s.StudentId">delete</a></td>
+        </tr>
+    }
+   
+</table>

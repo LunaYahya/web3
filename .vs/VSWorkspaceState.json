@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Migrations",
+    "\\Models"
   ],
+  "SelectedNode": "\\Migrations\\EleariningContextModelSnapshot.cs",
   "PreviewInSolutionExplorer": false
 }
