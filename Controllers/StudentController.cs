@@ -16,15 +16,19 @@ namespace E_learninig.Controllers
             var student = context.Student.Include(s => s.Enrollments).ThenInclude(e => e.Course).ToList();
             return View(student);
         }
-        public IActionResult Search(String SearchKey)
-        { 
-            var student= context.Student
-                .Where(s => s.FirstName.Contains(SearchKey) || s.LastName.Contains(SearchKey))
+ 
+        public IActionResult Search(string SearchKey)
+        {
+            var student = context.Student
+                .Where(s => string.IsNullOrEmpty(SearchKey) ||
+                            s.FirstName.Contains(SearchKey) ||
+                            s.LastName.Contains(SearchKey))
                 .Include(s => s.Enrollments)
                 .ThenInclude(e => e.Course)
                 .ToList();
-   
+
             return View("Index", student);
         }
-}
+
+    }
 }
