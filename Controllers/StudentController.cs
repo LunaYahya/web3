@@ -34,5 +34,38 @@ namespace E_learninig.Controllers
             return View("Index", student);
         }
 
+        public IActionResult Delete(int id )
+        {
+            Student s = context.Student.Find(id);
+           if (s!= null)
+          { context.Student.Remove(s);
+           context.SaveChanges();
+          }
+          return RedirectToAction("Index","student");
+
+        
+        }
+
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        
+        public IActionResult Add(Student s)
+        {
+            if (ModelState.IsValid)
+            {
+                context.Student.Add(s);
+                context.SaveChanges();
+                return RedirectToAction("Index","student");
+            }
+
+            return View(s);
+        }
+
+
     }
 }
