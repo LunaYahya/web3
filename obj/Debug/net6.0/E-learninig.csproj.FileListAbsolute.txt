@@ -77,13 +77,10 @@ C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learni
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.RazorAssemblyInfo.cache
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.RazorAssemblyInfo.cs
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.sourcelink.json
-C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.dll
-C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\refint\E-learninig.dll
-C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.pdb
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\appsettings.json
-C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.staticwebassets.endpoints.json
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.staticwebassets.runtime.json
+C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.staticwebassets.endpoints.json
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.exe
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.deps.json
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\bin\Debug\net6.0\E-learninig.runtimeconfig.json
@@ -135,5 +132,8 @@ C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\staticwe
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\swae.build.ex.cache
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learni.45B7654C.Up2Date
+C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.dll
+C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\refint\E-learninig.dll
+C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.pdb
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\E-learninig.genruntimeconfig.cache
 C:\Users\majdi\OneDrive\المستندات\GitHub\web3\obj\Debug\net6.0\ref\E-learninig.dll
