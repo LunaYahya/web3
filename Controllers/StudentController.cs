@@ -13,8 +13,12 @@ namespace E_learninig.Controllers
         public StudentController(EleariningContext ctx) => context = ctx;
         public IActionResult Index()
         {
-            var student = context.Student.Include(s => s.Enrollments).ThenInclude(e => e.Course).ToList();
-            return View(student);
+            var students = context.Student
+                                  .Include(s => s.Enrollments)
+                                  .ThenInclude(e => e.Course)
+                                  .ToList();
+
+            return View(students);
         }
         public IActionResult Search(String SearchKey)
         { 

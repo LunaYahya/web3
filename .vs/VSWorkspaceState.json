@@ -1,9 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Controllers",
     "\\Migrations",
-    "\\Models"
+    "\\Models",
+    "\\Views",
+    "\\Views\\Home",
+    "\\Views\\Student"
   ],
-  "SelectedNode": "\\Migrations\\EleariningContextModelSnapshot.cs",
+  "SelectedNode": "\\Views\\Student\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }
