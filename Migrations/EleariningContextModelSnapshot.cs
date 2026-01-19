@@ -16,7 +16,7 @@ namespace E_learninig.Migrations
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
- 612, 618
+ //612, 618
             modelBuilder
                 .HasAnnotation("ProductVersion", "6.0.0")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);

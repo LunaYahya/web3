@@ -1,0 +1,79 @@
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Welcome";
+    var role = Context.Session.GetString("Role");
+}
+
+<style>
+    body {
+        background-color: #ADD8E6;
+        font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    .my-card {
+        background-color: white;
+        max-width: 450px;
+        margin: 60px auto;
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        text-align: center;
+    }
+
+    .btn {
+        margin-top: 15px;
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
+        padding: 12px;
+        border-radius: 6px;
+        color: white;
+        font-weight: 500;
+        transition: all 0.3s;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-primary {
+        background-color: #0d6efd;
+    }
+
+    .btn-primary:hover {
+        background-color: #0b5ed7;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+    }
+
+    .btn-secondary:hover {
+        background-color: #5c636a;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+    }
+
+    .btn-danger:hover {
+        background-color: #bb2d3b;
+    }
+</style>
+
+<div class="my-card">
+    <h1>Welcome @ViewBag.StudentName 👋</h1>
+
+    @if (role == "Admin")
+    {
+        <a asp-action="Index" asp-controller="Student" class="btn btn-primary">Student List</a>
+        <a asp-action="Add" asp-controller="Student" class="btn btn-secondary">Add Student</a>
+        <a asp-action="ChangePassword" asp-controller="Student" class="btn btn-secondary">Change Password</a>
+        <a asp-action="Logout" asp-controller="Student" class="btn btn-danger">Logout</a>
+    }
+    else
+    {
+        <a asp-action="SDetails" asp-controller="Student" class="btn btn-primary">My Details</a>
+        <a asp-action="ChangePassword" asp-controller="Student" class="btn btn-secondary">Change Password</a>
+        <a asp-action="Logout" asp-controller="Student" class="btn btn-danger">Logout</a>
+    }
+</div>

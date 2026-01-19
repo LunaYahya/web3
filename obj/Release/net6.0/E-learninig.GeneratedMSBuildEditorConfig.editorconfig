@@ -11,45 +11,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = E_learninig
 build_property.RootNamespace = E_learninig
-build_property.ProjectDir = C:\Users\majdi\source\repos\E-learninig\E-learninig\
+build_property.ProjectDir = C:\Users\majdi\OneDrive\المستندات\GitHub\web3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\majdi\source\repos\E-learninig\E-learninig
+build_property.MSBuildProjectDirectory = C:\Users\majdi\OneDrive\المستندات\GitHub\web3
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 6.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Home/Index.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Home/Privacy.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Shared/Error.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Student/Index.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxhZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/ChangePassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/_ViewImports.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/SDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Student/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/_ViewStart.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/majdi/source/repos/E-learninig/E-learninig/Views/Shared/_Layout.cshtml]
+[C:/Users/majdi/OneDrive/المستندات/GitHub/web3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fsml2uw8dg

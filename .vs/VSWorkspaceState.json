@@ -4,9 +4,12 @@
     "\\Controllers",
     "\\Migrations",
     "\\Models",
+    "\\Properties",
     "\\Views",
     "\\Views\\Home",
+    "\\Views\\Shared",
     "\\Views\\Student"
   ],
+  "SelectedNode": "\\Views\\Student\\add.cshtml",
   "PreviewInSolutionExplorer": false
 }
